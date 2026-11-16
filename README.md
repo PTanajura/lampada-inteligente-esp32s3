@@ -259,6 +259,7 @@ Antes de integrar tudo, valide cada componente com pequenos sketches:
 ```
 lampada_inteligente/
 ├── lampada_inteligente.ino   # Firmware principal
+├── banco.py                  # Arquivo para o banco
 └── README.md                 # Este arquivo
 ```
 

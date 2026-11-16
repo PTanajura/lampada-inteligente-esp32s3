@@ -60,8 +60,8 @@ Firmware para uma lâmpada inteligente baseada na placa **ESP32-S3**. A lâmpada
 | DHT11 | **12** | VCC → 3V3, GND → GND, resistor 4,7 kΩ entre DATA e 3V3 |
 | LDR | **18** | LDR entre 3V3 e GPIO1; resistor 10 kΩ entre GPIO1 e GND |
 | Potenciômetro (cursor) | **21** | Extremidades em 3V3 e GND |
-| LED RGB – Vermelho | **41** | Resistor 220 Ω em série |
-| LED RGB – Verde | **42** | Resistor 220 Ω em série |
+| LED RGB – Vermelho | **42** | Resistor 220 Ω em série |
+| LED RGB – Verde | **41** | Resistor 220 Ω em série |
 | LED RGB – Azul | **40** | Resistor 220 Ω em série |
 | LED RGB – comum | GND | Cátodo comum |
 | Buzzer | **17** | Outro terminal no GND |

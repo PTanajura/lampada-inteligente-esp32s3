@@ -64,7 +64,7 @@ Firmware para uma lâmpada inteligente baseada na placa **ESP32-S3**. A lâmpada
 | LED RGB – Verde | **41** | Resistor 220 Ω em série |
 | LED RGB – Azul | **40** | Resistor 220 Ω em série |
 | LED RGB – comum | GND | Cátodo comum |
-| Buzzer | **17** | Outro terminal no GND |
+| Buzzer | **37** | Outro terminal no GND |
 | Botão | **20** | Outro terminal no GND (pull-up interno ativado) |
 
 ```

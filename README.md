@@ -57,15 +57,15 @@ Firmware para uma lâmpada inteligente baseada na placa **ESP32-S3**. A lâmpada
 
 | Componente | GPIO | Ligação |
 |---|---|---|
-| DS18B20 (DATA) | **5** | VCC → 3V3, GND → GND, resistor 4,7 kΩ entre DATA e 3V3 |
-| LDR | **1** | LDR entre 3V3 e GPIO1; resistor 10 kΩ entre GPIO1 e GND |
-| Potenciômetro (cursor) | **2** | Extremidades em 3V3 e GND |
-| LED RGB – Vermelho | **15** | Resistor 220 Ω em série |
-| LED RGB – Verde | **16** | Resistor 220 Ω em série |
-| LED RGB – Azul | **17** | Resistor 220 Ω em série |
+| DHT11 | **12** | VCC → 3V3, GND → GND, resistor 4,7 kΩ entre DATA e 3V3 |
+| LDR | **18** | LDR entre 3V3 e GPIO1; resistor 10 kΩ entre GPIO1 e GND |
+| Potenciômetro (cursor) | **21** | Extremidades em 3V3 e GND |
+| LED RGB – Vermelho | **41** | Resistor 220 Ω em série |
+| LED RGB – Verde | **42** | Resistor 220 Ω em série |
+| LED RGB – Azul | **40** | Resistor 220 Ω em série |
 | LED RGB – comum | GND | Cátodo comum |
-| Buzzer | **18** | Outro terminal no GND |
-| Botão | **7** | Outro terminal no GND (pull-up interno ativado) |
+| Buzzer | **17** | Outro terminal no GND |
+| Botão | **20** | Outro terminal no GND (pull-up interno ativado) |
 
 ```
 3V3 ──┬── LDR ──┬── GPIO1
